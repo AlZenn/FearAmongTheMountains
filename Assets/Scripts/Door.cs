@@ -7,6 +7,7 @@ public class Door : MonoBehaviour
     public GameObject inttext;
     public bool interactable, toggle;
     public Animator doorAnim;
+    public AudioSource kapisesi;
 
     void OnTriggerStay(Collider other)
     {
@@ -36,11 +37,13 @@ public class Door : MonoBehaviour
                 {
                     doorAnim.ResetTrigger("close");
                     doorAnim.SetTrigger("open");
+                    kapisesi.Play();
                 }
                 if (toggle == false)
                 {
                     doorAnim.ResetTrigger("open");
                     doorAnim.SetTrigger("close");
+                    kapisesi.Play();
                 }
                 inttext.SetActive(false);
                 interactable = false;

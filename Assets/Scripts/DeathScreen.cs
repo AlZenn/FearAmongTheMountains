@@ -11,7 +11,10 @@ public class DeathScreen : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
         StartCoroutine("LoadToMenu");
+
         
     }
 

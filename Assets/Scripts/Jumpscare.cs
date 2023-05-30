@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Jumpscare : MonoBehaviour
 {
     public Animator jumpscareAnim;
+    public AudioSource jumpscareses;
     public GameObject player;
     public float jumpscareTime;
     public string sceneName;
@@ -17,6 +18,7 @@ public class Jumpscare : MonoBehaviour
             player.SetActive(false);
             jumpscareAnim.SetTrigger("jumpscare");
             StartCoroutine(jumpscr());
+            jumpscareses.Play();
         }
     }
 

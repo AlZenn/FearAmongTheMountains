@@ -22,7 +22,7 @@ public class PauseMenu : MonoBehaviour
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
             }
-            if (toggle = true)
+            if (toggle == true)
             {
                 pausemenu.SetActive(true);
                 Time.timeScale = 0;

@@ -35,7 +35,7 @@ public class PickUpLog : MonoBehaviour
             {
                 inttext.SetActive(false);
                 interactable = false;
-                //pickupsound.Play();
+                pickupsound.Play();
                 
 
                 logSayac++;

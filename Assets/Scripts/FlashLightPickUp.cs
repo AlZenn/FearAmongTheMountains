@@ -33,7 +33,7 @@ public class FlashLightPickUp : MonoBehaviour
             {
                 inttext.SetActive(false);
                 interactable = false;
-                // pickup.Play();
+                pickup.Play();
                 flashlightHand.SetActive(true);
                 flashlightTable.SetActive(false);
 

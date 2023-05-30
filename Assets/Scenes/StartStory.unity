@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7, y: -755.3}
+  m_AnchoredPosition: {x: 7, y: -850}
   m_SizeDelta: {x: 1338, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &526646763
@@ -323,15 +323,16 @@ PlayableDirector:
   m_ExposedReferences:
     m_References:
     - 10e673cf92f895a4fb52ab6df30040ad: {fileID: 1014425530}
-    - 870df167637c68c46bd3429be0f8a8f8: {fileID: 2042225817}
+    - 870df167637c68c46bd3429be0f8a8f8: {fileID: 1008981874}
     - c0cf44c44668108438b21b5be522f52b: {fileID: 2048407741}
     - 0131363e9f701554d835a187c4ab335c: {fileID: 526646761}
-    - f3755ed450e7b694d8bf941bf17fe3ef: {fileID: 1008981874}
+    - f3755ed450e7b694d8bf941bf17fe3ef: {fileID: 2042225817}
     - 07c11ac0b79da034b81037b40399bc27: {fileID: 1828783744}
     - dc3d1536b6c148f4caebc2906005274a: {fileID: 1489546031}
     - fab812f9f4ce83f4694a8526ee1fbc87: {fileID: 1003713159}
     - 2bd4cc67a6dcfc249acc9fa51fe94604: {fileID: 829291452}
     - 7394a73f18113004a905911d9e988174: {fileID: 1930640484}
+    - ad30479b11b1db64087414a233880323: {fileID: 1930640484}
     - c41187fb5611bc54fb84d27b1d72cb01: {fileID: 1471725522}
     - 19e975694c4eefe40bc0bb2f71ee6d86: {fileID: 755344321}
 --- !u!1 &755344321
@@ -370,7 +371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7, y: -755.3}
+  m_AnchoredPosition: {x: 7, y: -850}
   m_SizeDelta: {x: 1916.57, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755344323
@@ -421,7 +422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "dengesini kaybeder ve da\u011Fdan a\u015Fa\u011F\u0131ya do\u011Fru yuvarlan\u0131r."
+  m_Text: 'and starts to roll down uncontrollably. '
 --- !u!222 &755344325
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -466,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7, y: -755.3}
+  m_AnchoredPosition: {x: 7, y: -850}
   m_SizeDelta: {x: 1338, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829291454
@@ -517,8 +518,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "G\xF6z\xFCn\xFC a\xE7maya \xE7al\u0131\u015F\u0131rken birinin kendisini
-    s\xFCr\xFCkledi\u011Fini fark eder ve v\xFCcudu daha fazla dayanamay\u0131p bay\u0131l\u0131r."
+  m_Text: 'Before she loses consciousness, she realizes that someone is dragging
+    her, and she faints out of strength. '
 --- !u!222 &829291456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -617,7 +618,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1008981875
 RectTransform:
   m_ObjectHideFlags: 0
@@ -626,7 +627,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008981874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.6901822}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6901634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -709,7 +710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7, y: -755.3}
+  m_AnchoredPosition: {x: 7, y: -850}
   m_SizeDelta: {x: 1338, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1014425532
@@ -760,8 +761,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Uyand\u0131\u011F\u0131nda kendisini i\xE7inde birka\xE7 not ka\u011F\u0131d\u0131,
-    fener ve bandaj ile bulur."
+  m_Text: When he opens his eyes, he finds himself surrounded by several notepads
+    a lantern and a bandage.
 --- !u!222 &1014425534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -794,7 +795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036917143}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -721.3934, y: -401.52063, z: 2.690172}
+  m_LocalPosition: {x: -721.39343, y: -401.52063, z: 2.6901634}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -805,6 +806,134 @@ Transform:
   - {fileID: 1489546032}
   m_Father: {fileID: 2056925928}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1242884893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1242884895}
+  - component: {fileID: 1242884894}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1242884894
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242884893}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 860fec7f2eed32f4397171d7aecb4d02, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.353
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1242884895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242884893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 123.591194, y: -52.147766, z: 4.669085}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1267170884
 GameObject:
@@ -948,10 +1077,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1324,7 +1453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7, y: -755.3}
+  m_AnchoredPosition: {x: 7, y: -850}
   m_SizeDelta: {x: 1338, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930640486
@@ -1375,8 +1504,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ka\u011F\u0131tta yazan tek \u015Fey ise buradan ka\xE7mas\u0131 gerekti\u011Fi
-    ve dikkatli olmas\u0131d\u0131r. "
+  m_Text: On one of the papers it is written that he must escape from here and be
+    careful.
 --- !u!222 &1930640488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1403,7 +1532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2042225818
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1421,7 +1550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 7, y: -755.3}
+  m_AnchoredPosition: {x: 7, y: -850}
   m_SizeDelta: {x: 1916.57, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042225819
@@ -1457,8 +1586,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Da\u011F t\u0131rman\u0131c\u0131 olan Ely, bir g\xFCn yapt\u0131\u011F\u0131
-    da\u011F t\u0131rman\u0131\u015F\u0131 s\u0131ras\u0131nda"
+  m_Text: 'Mountaineer Ely loses his balance while climbing the foot of a high mountain
+    one day '
 --- !u!222 &2042225820
 CanvasRenderer:
   m_ObjectHideFlags: 0
